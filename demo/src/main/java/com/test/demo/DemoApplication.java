@@ -11,6 +11,7 @@ public class DemoApplication {
 
 	@RequestMapping("/greetings")
 	public String getGreetings() {
+		System.out.println("In side get Greetings method");
 		return "Hello code has deployed in open shift";
 	}
 	
